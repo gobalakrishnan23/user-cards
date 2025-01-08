@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 5px;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container{
+  display: inline-block;
+  background-color:rgba(0, 0, 85, 0.767);
+  width: 280px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+.pro{
+  background-color: red;
+  font-size: 12px;
+  padding:3px 5px;
+  border-radius: 3px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.online{
+  background-color: green;
+}
+.offline{
+  background-color: yellow;
+}
+.card-detail div{
+  margin-top: 10px;
+  color:#cccccc91;
+}
+.card-button button{
+  background-color: rgb(0, 157, 255);
+  border: 1px solid rgb(0, 157, 255);
+  padding: 5px 15px;
+  margin: 10px 5px;
+  border-radius: 3px;
+  color: #ccc;
+}
+.card-button button:nth-child(2){
+  background-color: transparent;
+}
+.skills{
+  text-align: left;
+  background-color: rgba(5, 5, 53, 0.753);
+  color: #ccc;
+  padding: 10px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  border: 1px solid #ccc;
+  list-style-type: none;
+  margin: 0px 5px 5px 0px;
+  font-size: 10px;
+  padding: 5px;
+}
+h6{
+  text-transform: uppercase;
+}
